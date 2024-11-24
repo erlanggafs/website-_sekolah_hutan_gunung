@@ -36,26 +36,26 @@ a {
 .page-login {
     width: 100%;
     height: 100vh;
-    background-color :rgb(236, 135, 53);
+    background-color :#640D5F;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .box{
-    background-color: #fff;
+    background-color: #ffF;
 }
 .box-header{
     padding: 16px;
     border-bottom: 1px solid #ddd;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 .box-body{
     padding: 16px;
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 .box-footer{
     border-top: 1px solid #ddd;
-    background-color: #f2f2f2;
+    background-color: #640D5F;
     padding: 16px;
 }
 .form{
@@ -94,7 +94,7 @@ a {
 }
 
 .btn-blue:hover {
-    background-color: #fc5d01;
+    background-color: #640D5F;
 }
 
 .text-center{
@@ -120,14 +120,14 @@ a {
 .navbar{
     height: 60px;
     width: 100%;
-    background-color:rgb(255, 94, 0); ;
+    background-color:#640D5F;
     position: fixed;
     top: 0;
     z-index: 1000;
 }
 
 .navbar a{
-    color: #fff;
+    color: #fff ;
 }
 
 .nav-brand{
@@ -148,22 +148,22 @@ a {
 
 .nav-menu li .dropdown {
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: #640D5F;
     list-style: none;
     position: absolute;
     display: none;
 }
 
 .nav-menu li:hover{
-    background-color: #000000;
+    background-color: #ffe100;
 }
 
 .nav-menu li .dropdown a{
-    color: #333;
+    color: #fff;
 }
 
 .nav-menu li .dropdown li:hover a{
-    color: #fff;
+    color: #640D5F;
 }
 
 .nav-menu li:hover .dropdown {
@@ -244,7 +244,7 @@ a {
 }
 
 .header a:hover {
-    color: rgb(255, 94, 0);
+    color: #c73002;
 }
 
 .header-logo{
@@ -275,7 +275,7 @@ a {
 
 .banner {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -283,8 +283,8 @@ a {
 
 .banner-text {
     padding: 25px 0;
-    background-color: rgb(0,0,0, .7);
-    color: rgb(255, 94, 0);
+    background-color: #640D5F;
+    color: #fff;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -329,7 +329,7 @@ a {
     border: 1px solid #ccc;
     width: 100%;
     min-height: 200px;
-    background-color: rgb(255, 94, 0);
+    background-color: #640D5F;
 }
 
 .thumbnail-img {
@@ -344,7 +344,7 @@ a {
 }
 
 .thumbnail-link {
-    color: #333;
+    color: #fff;
 }
 
 .thumbnail-link:hover {
@@ -357,7 +357,7 @@ a {
 
 footer {
     padding: 50px;
-    background-color: rgb(255, 94, 0);
+    background-color: #640D5F;
     color: #fff;
 }
 
@@ -380,7 +380,7 @@ footer {
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: rgb(0,0,0, .9);
+    background-color: #ffF;
     z-index: 9999;
 }
 

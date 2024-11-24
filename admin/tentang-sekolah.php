@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="box">
                         <div class="box-header">
-                          Tentang Sekolah
+                          Tentang Kami
                         </div>
                         <div class="box-body">
 
@@ -20,8 +20,8 @@
                         <form action ="" method="POST" enctype="multipart/form-data">
              
                             <div class="form-group">
-                                <label>Tentang Sekolah</label>
-                                <textarea name="tentang" class="input-control" placeholder="Tentang Sekolah" id="keterangan"><?= $d->tentang_sekolah ?></textarea>
+                                <label>Tentang Kami</label>
+                                <textarea name="tentang" class="input-control" placeholder="Tentang Kami" id="keterangan"><?= $d->tentang_sekolah ?></textarea>
                             </div>
 
                             <div class="form-group">

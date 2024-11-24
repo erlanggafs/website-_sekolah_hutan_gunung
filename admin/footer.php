@@ -1,7 +1,7 @@
             <!-- Footer-->
             <div class="footer">
                 <div class="container text-center">
-                Copyright &copy; 2022 - <?= $d->nama ?>.
+                Copyright &copy; 2024 - <?= $d->nama ?>.
             </div>
             </div>
     </body>

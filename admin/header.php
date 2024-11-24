@@ -45,7 +45,7 @@ $d = mysqli_fetch_object($identitas);
 
                 <?php } elseif ($_SESSION['ulevel'] == 'Admin') { ?>
 
-                    <li><a href="jurusan.php">Materi</a></li>
+                    <!-- <li><a href="jurusan.php">Materi</a></li> -->
                     <li><a href="galeri.php">Galeri</a></li>
                     <li><a href="informasi.php">Informasi</a></li>
                     <li>
@@ -54,8 +54,8 @@ $d = mysqli_fetch_object($identitas);
                         <!-- sub menu-->
                         <ul class="dropdown">
                             <li><a href="identitas-sekolah.php">Identitas Sekolah</a></li>
-                            <li><a href="tentang-sekolah.php">Tentang Sekolah</a></li>
-                            <li><a href="kepala-sekolah.php">Kepala Sekolah</a></li>
+                            <li><a href="tentang-sekolah.php">Tentang Kami</a></li>
+                            <li><a href="kepala-sekolah.php">Kepala Dinas</a></li>
                         </ul>
                     </li>
 

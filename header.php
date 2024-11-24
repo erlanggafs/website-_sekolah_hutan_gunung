@@ -25,10 +25,10 @@ $d = mysqli_fetch_object($identitas);
         <span onclick="hideMobileMenu()"> Close </span>
         <ul class="text-center">
             <li><a href="index.php">Beranda</a></li>
-            <li><a href="tentang-sekolah.php">Tentang Sekolah</a></li>
-            <li><a href="jurusan.php">Materi</a></li>
+            <li><a href="tentang-sekolah.php">Tentang Kami</a></li>
+            <!-- <li><a href="jurusan.php">Materi</a></li> -->
             <li><a href="galeri.php">Galeri</a></li>
-            <li><a href="informasi.php">Informasi</a></li>
+            <li><a href="informasi.php">Berita</a></li>
             <li><a href="kontak.php">Kontak</a></li>
         </ul>
     </div>
@@ -38,15 +38,21 @@ $d = mysqli_fetch_object($identitas);
 
         <div class="container">
 
-            <div class="header-logo">
-                <img src="uploads/identitas/<?= $d->logo ?>" width="70">
-                <h2><a href="index.php"><?= $d->nama ?></a></h2>
-            </div>
+        <div class="header-logo">
+    <!-- Logo Kedua -->
+    <img src="assets/logofav.png" width="90" height="75" alt="Logo Kedua" class="logo-second">
+    
+    <!-- Logo Utama -->
+    <img src="uploads/identitas/<?= $d->logo ?>" width="70" alt="Logo Utama">
+    
+    <!-- Nama -->
+    <h2><a href="index.php"><?= $d->nama ?></a></h2>
+</div>
 
             <ul class="header-menu">
                 <li><a href="index.php">Beranda</a></li>
-                <li><a href="tentang-sekolah.php">Tentang Sekolah</a></li>
-                <li><a href="jurusan.php">Materi</a></li>
+                <li><a href="tentang-sekolah.php">Tentang Kami</a></li>
+                <!-- <li><a href="jurusan.php">Materi</a></li> -->
                 <li><a href="galeri.php">Galeri</a></li>
                 <li><a href="informasi.php">Informasi</a></li>
                 <li><a href="kontak.php">Kontak</a></li>

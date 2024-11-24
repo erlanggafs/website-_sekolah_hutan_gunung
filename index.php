@@ -4,7 +4,7 @@
     <div class="banner-text">
         <div class="container">
             <h3> Selamat Datang di <?= $d->nama ?> </h3>
-            <P>Pusat pendidikan dan pelatihan Teknik Survival hutan dan gunung di indonesia</p>
+            <P>Website Sistem Informasi Berita & Inovasi Dinas Pemberdayaan Masyarakat dan Pemerintahan Desa</p>
         </div>
     </div>
 </div>
@@ -12,14 +12,14 @@
 <!-- SAMBUTAN KEPSEK-->
 <div class="section">
     <div class="container text-center">
-        <h3> Sambutan Kepala Sekolah </h3>
+        <h3> Sambutan Kepala Dinas </h3>
         <img src="uploads/identitas/<?= $d->foto_kepsek ?>" width="100">
         <h4> <?= $d->nama_kepsek ?> </h4>
         <p><?= $d->sambutan_kepsek ?></p>
     </div>
 </div>
 
-<!-- JURUSAN-->
+<!-- JURUSAN
 <div class="section" id="jurusan">
     <div class="container text-center">
         <h3> Materi </h3>
@@ -53,7 +53,7 @@
         <?php } ?>
 
     </div>
-</div>
+</div> -->
 
 <!-- INFORMASI-->
 
